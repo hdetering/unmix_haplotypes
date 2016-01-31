@@ -78,7 +78,7 @@ void read_csv_transposed(std::istream& input, matrix<T>& M)
   }
 }
 
-/** Extract vector base that generates a given vector space. */
+/** Extract vector base V that generates a given vector space D. */
 template<typename T>
 void extract_base_vectors(const matrix<T> &M, const matrix<T> &D, std::vector<int> &idx, matrix<T> &V)
 {
