@@ -5,7 +5,7 @@ From a given set of observed haplotypes, infer a minimal set of atomic haplotype
 ```
 git clone https://github.com/hdetering/unmix_haplotypes.git
 make
-unmix_haplotypes <haplotypes.csv>
+bin/unmix_haplotypes example/haplotypes.csv
 ```
 
 ## Input
